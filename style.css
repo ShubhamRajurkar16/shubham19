@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 1400px;
+    height: 750px;
+    border: 5px black solid;
+    margin: auto;
+    border-bottom:5px black solid;
+}
+.header{
+    width: 1400px;
+    height: 100px;
+    background-color: aqua;
+}
+.logo{
+    width: 600px;           
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    font-size:50px;
+}
+.menu{
+    line-height: 50px;
+
+}
+ul li{
+ list-style: none;
+ float: left;
+ line-height: 170px;
+ font-size:20px ;
+ text-align: center;
+ padding-right: 70px;
+text-decoration: none;
+}
+.container{
+    width: 1400px;
+    height: 550px;
+background-image: url(/IMAGES/lap\ img.jpeg);
+background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.footer{
+    width: 1400px;
+    height: 70px;
+    background-color: rgb(37, 37, 156);
+    margin: auto;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+}
